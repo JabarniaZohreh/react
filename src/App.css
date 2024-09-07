@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* فونت زیبا */
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* گرادیانت زیبا */
+    color: white; /* رنگ متن */
+  }
+  
+  h1 {
+    text-align: center; /* مرکز کردن عنوان */
+    margin-top: 20px; /* فاصله از بالا */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* مرکز کردن دایره‌ها و input */
+    margin: 20px; /* فاصله از بالا و پایین */
+  }
+  
+  .circle {
+    width: 40px; /* اندازه دایره */
+    height: 40px; /* اندازه دایره */
+    border-radius: 50%; /* دایره کردن */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px; /* فاصله بین دایره‌ها و input */
+    font-size: 24px; /* اندازه فونت */
+    cursor: pointer; /* نشانگر ماوس */
+  }
+  
+  .tick {
+    background-color: #da4444; /* رنگ دایره تیک */
+    color: white; /* رنگ متن */
+  }
+  
+  .plus {
+    background-color: #34c2a1; /* رنگ دایره مثبت */
+    color: white; /* رنگ متن */
+  }
+  
+  input {
+    padding: 10px; /* فاصله داخلی */
+    border: none; /* حذف حاشیه */
+    border-radius: 5px; /* گوشه‌های گرد */
+    font-size: 16px; /* اندازه فونت */
+  }
+  
+  ul {
+    list-style-type: none; /* حذف نقاط لیست */
+    padding: 0; /* حذف padding */
+  }
+  
+  li {
+    background: rgba(255, 255, 255, 0.1); /* پس‌زمینه نیمه شفاف برای لیست مخاطبین */
+    margin: 50px; /* فاصله بین لیست‌ها */
+    padding: 10px; /* فاصله داخلی */
+    border-radius: 5px; /* گوشه‌های گرد */
+  }
+  
+
+  
+.add-contact-form {
+  background: linear-gradient(to right, #a890c1, #b6d0fc); /* گرادیانت زیبا */
+  border-radius: 10px; /* گوشه‌های گرد */
+  padding: 70px; /* فاصله داخلی */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* سایه */
+  margin: 50px; /* فاصله از بالا و پایین */
+  color: white; /* رنگ متن */
+}
+
+input {
+  padding: 10px; /* فاصله داخلی */
+  border: none; /* حذف حاشیه */
+  border-radius: 5px; /* گوشه‌های گرد */
+  font-size: 16px; /* اندازه فونت */
+  margin-bottom: 10px; /* فاصله بین ورودی‌ها */
+  background-color: rgb(219, 224, 250);
+}
+
+
+ul {
+  list-style-type: none; /* حذف نقاط لیست */
+  padding: 0; /* حذف padding */
+}
+
+li {
+  background: rgba(255, 255, 255, 0.1); /* پس‌زمینه نیمه شفاف برای لیست مخاطبین */
+  margin: 10px; /* فاصله بین لیست‌ها */
+  padding: 10px; /* فاصله داخلی */
+  border-radius: 5px; /* گوشه‌های گرد */
+  display: flex; /* استفاده از flexbox */
+  justify-content: space-between; /* فاصله بین محتوا و دکمه‌ها */
+  align-items: center; /* مرکز کردن عمودی */
+}
+
+button {
+  margin-left: 10px; /* فاصله بین دکمه‌ها */
+  background-color: #1f4889ba; /* رنگ دکمه */
+  color: white; /* رنگ متن دکمه */
+  border: none; /* حذف حاشیه */
+  border-radius: 5px; /* گوشه‌های گرد */
+  padding: 5px 10px; /* فاصله داخلی دکمه */
+  cursor: pointer; /* نشانگر ماوس */
+}
+
+button:hover {
+  background-color: #64aef8; /* رنگ دکمه در حالت hover */
+}
